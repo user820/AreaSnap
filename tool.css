@@ -1,0 +1,79 @@
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#title{
+    font-family: "Oswald";
+    border: 5px;
+    border-radius: 5px;
+    border-style: dotted;
+    background: rgba(0,128,0,0.5);
+    font-size: 50px;
+    text-align: center;
+    color: chartreuse;
+    text-shadow: 3px 3px 4px green;
+}
+#motto{
+    font-family: "Oswald";
+    font-size: 20px;
+    text-align: center;
+    color: chartreuse;
+    text-shadow: 3px 3px 4px green;
+}
+#shape{
+    font-family: "Oswald";
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 3px 3px 4px yellowgreen;
+    font-size: 30px;
+}
+#label{
+    font-family: "Oswald";
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 3px 3px 4px yellowgreen;   
+}
+
+.inputbox{
+    background: rgba(255,255,0,0.5);
+    border-color: yellowgreen;
+    font-size: large;
+    font-family: "Oswald";
+    color:yellow;
+    text-shadow: 3px 3px 4px yellowgreen;   
+}
+#submit{
+    background: rgba(255,255,0,0.2);
+    border-color: yellowgreen;
+    font-size: large;
+    font-family: "Oswald";
+    color:yellow;
+    text-shadow: 3px 3px 4px yellowgreen;   
+    height: 30px;
+    width: 300px;
+}
+hr{
+    opacity: 0;
+}
+#output{
+    background: rgba(255,255,0,0.5);
+    border-color: yellowgreen;
+    font-family: "Oswald";
+    color:yellow;
+    text-shadow: 3px 3px 4px yellowgreen;   
+}
+#backBtn{
+    background: rgba(0,128,0,0.5);
+    border-color: green;
+    font-size: large;
+    font-family: "Oswald";
+    color:yellowgreen;
+    text-shadow: 3px 3px 4px yellowgreen;   
+    height: 30px;
+    width: 300px;
+    float: left;
+}
