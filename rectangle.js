@@ -6,6 +6,6 @@ document.getElementById("submit").onclick = function(){
     if (length < 0 || width < 0) {
         document.getElementById("output").textContent = `how is that even a rectangle bro`;      
     } else {
-        document.getElementById("output").textContent = `Output: ${length*2 + width*2}`;      
+        document.getElementById("output").textContent = `Output: ${length*width}`;      
     }
 }
